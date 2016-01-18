@@ -1,3 +1,5 @@
+<?php require_once( 'couch/cms.php' ); ?>
+<cms:template title='About Us' />
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -36,7 +38,7 @@
 			<li><a href="contact.html"><span class="meta">Get in touch</span><br />Contact Us</a></li>
 			<li><a href="blog.html"><span class="meta">Latest news</span><br />Blog</a></li>
 			<li><a href="portfolio.html"><span class="meta">Our latest work</span><br />Portfolio</a></li>
-			<li><a href="about.html" class="current"><span class="meta">Who are we?</span><br />About</a></li>
+			<li><a href="about.php" class="current"><span class="meta">Who are we?</span><br />About</a></li>
 			<li><a href="index.html"><span class="meta">Homepage</span><br />Home</a></li>
 		</ul>
 		
@@ -48,7 +50,7 @@
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 
 		<!-- Column 1 / Content -->
-		
+		<cms:editable name='main_content' type='richtext'>
 		<div class="grid_8">
 			<h4 class="page_title">Our mission</h4>
 			<div class="hr dotted clearfix">&nbsp;</div>
@@ -64,8 +66,9 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
 			
 		</div>
-		
+		</cms:editable>
 		<!-- Column 2 / Sidebar -->
+		<cms:editable name='sidebar_content' type='richtext'>
 		<div class="grid_4">
 		
 			<h4>Our History</h4>
@@ -87,7 +90,7 @@
 				<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor.</dd> 
 			</dl>
 		</div>
-		
+		 </cms:editable>
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 		
 		<!-- Footer -->
@@ -100,3 +103,4 @@
 
 </body>
 </html>
+<?php COUCH::invoke(); ?>

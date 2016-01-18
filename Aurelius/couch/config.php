@@ -45,7 +45,7 @@
     define( 'K_DB_USER', 'root' );
     // 6.
     // Database password
-    define( 'K_DB_PASSWORD', '' );
+    define( 'K_DB_PASSWORD', 'admin' );
     // 7.
     // MySQL hostname (it will usually be 'localhost')
     define( 'K_DB_HOST', 'localhost' );
