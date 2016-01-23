@@ -88,7 +88,7 @@
 
     // 13.
     // Your Email address. Will be used in contact forms.
-    define( 'K_EMAIL_TO', 'youremail@gmail.com' );
+    define( 'K_EMAIL_TO', 'tetha9@gmail.com' );
 
     // 14.
     // Will be used as the sender of messages delivered by contact forms to the address above.
