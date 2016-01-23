@@ -28,18 +28,17 @@
 
 <body>
 
-	<div id="wrapper" class="container_12 clearfix">
-
-		<!-- Text Logo -->
-		<h1 id="logo" class="grid_4">Aurelius</h1>
-		
-		<!-- Navigation Menu -->
-		<ul id="navigation" class="grid_8">
-			<li><a href="contact.html"><span class="meta">Get in touch</span><br />Contact Us</a></li>
-			<li><a href="blog.html"><span class="meta">Latest news</span><br />Blog</a></li>
-			<li><a href="portfolio.html"><span class="meta">Our latest work</span><br />Portfolio</a></li>
-			<li><a href="about.php" class="current"><span class="meta">Who are we?</span><br />About</a></li>
-			<li><a href="index.html"><span class="meta">Homepage</span><br />Home</a></li>
+<div id="wrapper" class="container_12 clearfix">
+		<ul id="navigation" class="grid_12">
+			<li><a href="contact.php"><span 	class="meta">Mitra</span><br />Donasi</a></li>
+			<li><a href="portfolio.php"><span 	class="meta">Prestasi</span><br />Galeri</a></li>
+			<li><a href="p.php"><span 	class="meta">Siswa Baru</span><br />PPDB</a></li>
+			<li><a href="siswa.php"><span 	class="meta">Peserta Didik</span><br />Siswa</a></li>
+			<li><a href="blog.php"><span		class="meta">Program</span><br />Kurikulum</a></li>
+			<li><a href="guru.php"><span	class="meta">Tenaga Pendidik</span><br />Guru</a></li>
+			<li><a href="about.php" 			class="current"><span class="meta">Visi & Misi</span><br />Profil</a></li>
+			<li><a href="index.html"><span		class="meta">Beranda</span><br />Sekolah</a></li>
+			
 		</ul>
 		
 		<div class="hr grid_12 clearfix">&nbsp;</div>
@@ -63,7 +62,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
 			<h4 class="page_title">Clients</h4>
 			<div class="hr dotted clearfix">&nbsp;</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
+			<p>Hwkwkwkwkk</p> 
 			
 		</div>
 		</cms:editable>
@@ -95,8 +94,8 @@
 		
 		<!-- Footer -->
 		<p class="grid_12 footer clearfix">
-			<span class="float"><b>&copy; Copyright</b> <a href="">QwibbleDesigns</a> - remove upon purchase.</span>
-			<a class="float right" href="#">top</a>
+			<span class="float"><b>&copy; Copyright</b> <a href="">tiwuk corp</a></span>
+			<a class="float right" href="#"></a>
 		</p>
 		
 	</div><!--end wrapper-->

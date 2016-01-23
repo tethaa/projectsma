@@ -1,5 +1,17 @@
 <?php require_once( 'couch/cms.php' ); ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<cms:template title='Blog' clonable='1'>
+	<cms:editable name='blog_content' type='richtext' />
+	<cms:editable name='blog_image'
+		crop='1'
+		width='300'
+		height='150'
+		type='image'
+/>
+
+</cms:template>
+<cms:if k_is_page >
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Aurelius | Blog</title>
@@ -27,18 +39,16 @@
 
 <body>
 
-	<div id="wrapper" class="container_12 clearfix">
-
-		<!-- Text Logo -->
-		<h1 id="logo" class="grid_4">Aurelius</h1>
-		
-		<!-- Navigation Menu -->
-		<ul id="navigation" class="grid_8">
-			<li><a href="contact.html"><span class="meta">Get in touch</span><br />Contact Us</a></li>
-			<li><a href="blog.html" class="current"><span class="meta">Latest news</span><br />Blog</a></li>
-			<li><a href="portfolio.html"><span class="meta">Our latest work</span><br />Portfolio</a></li>
-			<li><a href="about.html"><span class="meta">Who are we?</span><br />About</a></li>
-			<li><a href="index.html"><span class="meta">Homepage</span><br />Home</a></li>
+<div id="wrapper" class="container_12 clearfix">
+		<ul id="navigation" class="grid_12">
+			<li><a href="contact.php"><span		class="meta">Mitra</span><br />Donasi</a></li>
+			<li><a href="portfolio.php"><span 	class="meta">Prestasi</span><br />Galeri</a></li>
+			<li><a href="ppdb.php"><span 	class="meta">Siswa Baru</span><br />PPDB</a></li>
+			<li><a href="siswa.php"><span 	class="meta">Peserta Didik</span><br />Siswa</a></li>
+			<li><a href="blog.php"				class="current"><span class="meta">Program</span><br />Kurikulum</a></li>
+			<li><a href="guru.php"><span 	class="meta">Tenaga Pendidik</span><br />Guru</a></li>
+			<li><a href="about.php"><span		class="meta">Visi & Misi</span><br />Profil</a></li>
+			<li><a href="index.html"><span 		class="meta">Beranda</span><br />Sekolah</a></li>
 		</ul>
 		
 		<div class="hr grid_12 clearfix">&nbsp;</div>
@@ -55,25 +65,14 @@
 			<div class="post">
 				<!-- Post Title -->
 				<h3 class="title"><a href="single.html">Loreum ipsium massa cras phasellus</a></h3>
+				<h3 class="title"><a href="<cms:show k_page_link />"><cms:show k_page_title /></a></h3>
 				<!-- Post Title -->
-				<p class="sub"><a href="#">News</a>, <a href="#">Products</a> &bull; 31st Sep, 09 &bull; <a href="#">7 Comments</a></p>
+				<p class="sub"><a href="#">News</a>, <a href="#">Products</a> &bull; <cms:show k_page_date /> &bull; <a href="#">1 Comments</a></p>
 				<div class="hr dotted clearfix">&nbsp;</div>
 				<!-- Post Title -->
-				<img class="thumb" src="images/610x150.gif" alt=""/>
+				<img class="thumb"src="<cms:show blog_image />"alt=""/>
 				<!-- Post Content -->
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
-				<h1>H1 Heading</h1> 
-				<p>Donec leo. Aliquam risus elit, luctus vel, interdum vitae, malesuada eget, elit. Nulla vitae ipsum. Donec ligula ante, bibendum sit amet, elementum quis, viverra eu, ante. Fusce tincidunt. Mauris pellentesque, arcu eget feugiat accumsan, ipsum mi molestie orci, ut pulvinar sapien lorem nec dui.</p> 
-				<h2>H2 Heading</h2> 
-				<p>Donec leo. Aliquam risus elit, luctus vel, interdum vitae, malesuada eget, elit. Nulla vitae ipsum. Donec ligula ante, bibendum sit amet, elementum quis, viverra eu, ante. Fusce tincidunt. Mauris pellentesque, arcu eget feugiat accumsan, ipsum mi molestie orci, ut pulvinar sapien lorem nec dui.</p> 
-				<h3>H3 Heading</h3> 
-				<p>Donec leo. Aliquam risus elit, luctus vel, interdum vitae, malesuada eget, elit. Nulla vitae ipsum. Donec ligula ante, bibendum sit amet, elementum quis, viverra eu, ante. Fusce tincidunt. Mauris pellentesque, arcu eget feugiat accumsan, ipsum mi molestie orci, ut pulvinar sapien lorem nec dui.</p> 
-				<h4>H4 Heading</h4> 
-				<p>Donec leo. Aliquam risus elit, luctus vel, interdum vitae, malesuada eget, elit. Nulla vitae ipsum. Donec ligula ante, bibendum sit amet, elementum quis, viverra eu, ante. Fusce tincidunt. Mauris pellentesque, arcu eget feugiat accumsan, ipsum mi molestie orci, ut pulvinar sapien lorem nec dui.</p> 
-				<h5>H5 Heading</h5> 
-				<p>Donec leo. Aliquam risus elit, luctus vel, interdum vitae, malesuada eget, elit. Nulla vitae ipsum. Donec ligula ante, bibendum sit amet, elementum quis, viverra eu, ante. Fusce tincidunt. Mauris pellentesque, arcu eget feugiat accumsan, ipsum mi molestie orci, ut pulvinar sapien lorem nec dui.</p> 
-				<h6>H6 Heading</h6> 
-				<p>Donec leo. Aliquam risus elit, luctus vel, interdum vitae, malesuada eget, elit. Nulla vitae ipsum. Donec ligula ante, bibendum sit amet, elementum quis, viverra eu, ante. Fusce tincidunt. Mauris pellentesque, arcu eget feugiat accumsan, ipsum mi molestie orci, ut pulvinar sapien lorem nec dui.</p> 
+				<cms:show blog_content />  
 				<!-- Post Links -->
 				<p class="clearfix">
 					<a href="blog.html" class="button float" >&lt;&lt; Back to Blog</a>
@@ -171,10 +170,15 @@
 		
 		<!-- Footer -->
 		<p class="grid_12 footer clearfix">
-			<span class="float"><b>&copy; Copyright</b> <a href="">QwibbleDesigns</a> - remove upon purchase.</span>
-			<a class="float right" href="#">top</a>
+			<span class="float"><b>&copy; Copyright</b> <a href="">tiwuk corp</a></span>
+			<a class="float right" href="#"></a>
 		</p>
 	</div><!--end wrapper-->
 
 </body>
 </html>
+<cms:else />
+<cms:embed 'blog_list.html' />
+</cms:if>
+
+<?php COUCH::invoke(); ?>
