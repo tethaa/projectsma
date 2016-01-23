@@ -44,26 +44,14 @@
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 			
 		<!-- Caption Line -->
-		<h2 class="grid_12 caption">Learn <span>about us</span> and what we do best.</h2>
+		<h2 class="grid_12 caption"><span><center>SMA KRISTEN TUNGGUL WULUNG, SUWARU - MALANG <center></h2>
 		
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 
-		<!-- Column 1 / Content -->
+		<!-- Column 1 / Content -->	
+		<div>
 		<cms:editable name='main_content' type='richtext'>
-		<div class="grid_8">
-			<h4 class="page_title">Our mission</h4>
-			<div class="hr dotted clearfix">&nbsp;</div>
-			<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</i></p> 
-			<h4 class="page_title">So who are we?</h4>
-			<div class="hr dotted clearfix">&nbsp;</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
-			<h4 class="page_title">Staff</h4>
-			<div class="hr dotted clearfix">&nbsp;</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam id mauris accumsan egestas. Sed sed lorem. Integer id mi vel sapien fermentum vehicula. Pellentesque vitae lacus a sem posuere fringilla. Vestibulum dolor. Phasellus cursus augue ac purus. Curabitur faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
-			<h4 class="page_title">Clients</h4>
-			<div class="hr dotted clearfix">&nbsp;</div>
-			<p>Hwkwkwkwkk</p> 
-			
+		
 		</div>
 		</cms:editable>
 		<!-- Column 2 / Sidebar -->

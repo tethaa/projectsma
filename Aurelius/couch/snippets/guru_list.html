@@ -40,7 +40,7 @@
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 			
 		<!-- Catch Line and Link -->
-			<h2 class="grid_12 caption clearfix">Our <span>portfolio</span>, home to our latest, and greatest work.</h2>
+			<h2 class="grid_12 caption clearfix"><span><center> Tenaga Pendidik SMA KRISTEN TUNGGUL WULUNG SUWARU - MALANG </center><span></h2>
 		
 		<div class="pr grid_12 clearfix">&nbsp;</div>
 		
@@ -49,19 +49,17 @@
 		<!-- Section 1 -->
 		
 		<!-- Section 3 -->
-		<cms:folders masterpage='portfolio.php'>
+		<cms:folders masterpage='guru.php'>
 		<div class="catagory_1 clearfix">
 			<!-- Row 1 -->
 			<div class="grid_3 textright" >
-				<cms:pages masterpage='portfolio_desc.php' page_name=k_folder_name >
-				<span class="meta"><cms:show folder_blurb /></span>
-				<h4 class="title "><cms:show k_folder_title /></h4>
+				<span class="meta">Cross Browser Template</span>
+				<h4 class="title "><center><cms:show k_folder_title /></center></h4>
 				<div class="hr clearfix dotted">&nbsp;</div>
-			<cms:show folder_desc />
-			</cms:pages>
+				<p align="left"> Berikut adalah Profil para Tenaga Pendidik, Komite dan Karyawan di SMA KRISTEN TUNGGUL WULUNG 
 			</div>
 			<div class="grid_9">
-			<cms:pages masterpage='portfolio.php' folder=k_folder_name>
+			<cms:pages masterpage='guru.php' folder=k_folder_name>
 			<a class="portfolio_item float <cms:zebra 'alpha' '' 'omega' />" href="<cms:show k_page_link />">
 				<span><cms:show k_page_title /></span>
 				<img class="" src="<cms:show thumb />" alt=""/>
