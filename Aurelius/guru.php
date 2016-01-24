@@ -19,8 +19,8 @@
 		label='Image 1'
 		desc='Upload first image of portfolio here'
 		drop='1'
-		width='250'
-		height='343'
+		width='150'
+		height='200'
 		group='group_img1'
 		type='image'
 />

@@ -41,14 +41,14 @@
 
 <div id="wrapper" class="container_12 clearfix">
 		<ul id="navigation" class="grid_12">
-			<li><a href="contact.php"><span		class="meta">Mitra</span><br />Donasi</a></li>
-			<li><a href="portfolio.php"><span 	class="meta">Prestasi</span><br />Galeri</a></li>
-			<li><a href="ppdb.php"><span 	class="meta">Siswa Baru</span><br />PPDB</a></li>
-			<li><a href="siswa.php"><span 	class="meta">Peserta Didik</span><br />Siswa</a></li>
-			<li><a href="blog.php"				class="current"><span class="meta">Program</span><br />Kurikulum</a></li>
-			<li><a href="guru.php"><span 	class="meta">Tenaga Pendidik</span><br />Guru</a></li>
-			<li><a href="about.php"><span		class="meta">Visi & Misi</span><br />Profil</a></li>
-			<li><a href="index.html"><span 		class="meta">Beranda</span><br />Sekolah</a></li>
+			<li><a href="contact.php"><span			class="meta">Mitra</span><br />Donasi</a></li>
+			<li><a href="portfolio.php"><span 		class="meta">Prestasi</span><br />Galeri</a></li>
+			<li><a href="kite/index.html"><span 	class="meta">Siswa Baru</span><br />PPDB</a></li>
+			<li><a href="kite/index.html"><span 	class="meta">Peserta Didik</span><br />Siswa</a></li>
+			<li><a href="blog.php"					class="current"><span class="meta">Program</span><br />Kurikulum</a></li>
+			<li><a href="guru.php"><span 			class="meta">Tenaga Pendidik</span><br />Guru</a></li>
+			<li><a href="about.php"><span			class="meta">Visi & Misi</span><br />Profil</a></li>
+			<li><a href="index.html"><span 			class="meta">Beranda</span><br />Sekolah</a></li>
 		</ul>
 		
 		<div class="hr grid_12 clearfix">&nbsp;</div>
