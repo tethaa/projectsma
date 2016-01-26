@@ -136,7 +136,7 @@
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 			
 		<!-- Catch Line and Link -->
-			<h2 class="grid_12 caption clearfix">Our <span>portfolio</span>, home to our latest, and greatest work.</h2>
+			<h2 class="grid_12 caption clearfix">Berikut adalah Prestasi yang Berhasil diraih</h2>
 		
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 		
@@ -154,7 +154,7 @@
 		</div>
 		
 		<!-- Column 2 / Image Carosuel -->
-		<div id="folio_scroller_container" class="grid_8 cleafix">
+		<div id="folio_scroller_container" class="grid_3 cleafix">
 			<ul id="folio_scroller"> 
 					<li><span><cms:show image_1_title /></span><a href="#"><img alt="" src="<cms:show image_1 />" />
 					<li><span><cms:show image_2_title /></span><a href="#"><img alt="" src="<cms:show image_2 />" />
@@ -165,7 +165,7 @@
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 		
 		<!-- Client pickup line -->
-		<h2 class="grid_12 caption">Like this project? We can do something similar for you. <a href="contact.html"><span>Get in touch...</span></a></h2>
+		<h2 class="grid_12 caption">Terus Berprestasi Wujud Bakti kepada Negeri <a href="contact.php"><span>Vivat...!!!</span></a></h2>
 		
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 		

@@ -48,7 +48,7 @@
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 			
 		<!-- Caption Line -->
-		<h2 class="grid_12 caption clearfix">Enjoyed looking at our work? Don't hesitate to <span>contact us</span>!</h2>
+		<h1 class="grid_12 caption clearfix"><span>Kontak kami</h1>
 		
 		<div class="hr grid_12 clearfix">&nbsp;</div>
 
